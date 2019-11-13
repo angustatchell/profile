@@ -112,6 +112,24 @@ a:hover {
   .container {
     width: 700px;
   }
+  .avatar {
+    width: 275px;
+    height: 275px;
+  }
+  .bio {
+    width: 275px;
+    height: 150px;
+    padding-bottom: 35px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  body {
+    font-size: 13px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -120,11 +138,15 @@ a:hover {
   }
   .avatar {
     width: 250px;
-    height: 250px;
+    height: 110px;
   }
   .bio {
     width: 250px;
-    height: 250px;
+    height: 120px;
+    padding-bottom: 30px;
+  }
+  h1 {
+    font-size: 38px;
   }
   h2 {
     font-size: 27px;
@@ -145,7 +167,11 @@ a:hover {
   }
   .bio {
     width: 150px;
-    height: 150px;
+    height: 110px;
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 32px;
   }
   h2 {
     font-size: 22px;
@@ -153,5 +179,4 @@ a:hover {
   body {
     font-size: 11px;
   }
-}
 }
