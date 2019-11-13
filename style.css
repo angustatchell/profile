@@ -122,13 +122,36 @@ a:hover {
     width: 250px;
     height: 250px;
   }
+  .bio {
+    width: 250px;
+    height: 250px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  body {
+    font-size: 13px;
+  }
 }
+
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
   .avatar {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+  }
+  .bio {
+    width: 150px;
+    height: 150px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  body {
+    font-size: 11px;
+  }
+}
 }
